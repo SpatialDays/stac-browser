@@ -5,7 +5,7 @@ on:
     types: [created]
 
 jobs:
-  docker-build-push-prod:
+  docker-build-push-staging:
     runs-on: ubuntu-latest
     environment: STAGING_ENVIRONMENT
     steps:
