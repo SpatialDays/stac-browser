@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     environment: PROD_ENVIRONMENT
     steps:
-      - name: Exit with 0
-        run: exit 0
+      - name: Exit with 1
+        run: exit 1
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Set Short SHA
